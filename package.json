@@ -1,0 +1,50 @@
+{
+  "name": "anonymous",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Anonymous",
+  "author": "Dania Ernest",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "cross-env GATSBY_GRAPHQL_IDE=playground gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "gatsby": "^3.6.2",
+    "gatsby-background-image": "^1.5.3",
+    "gatsby-image": "^3.7.1",
+    "gatsby-plugin-emotion": "^6.7.1",
+    "gatsby-plugin-image": "^1.7.1",
+    "gatsby-plugin-mdx": "^2.7.1",
+    "gatsby-plugin-react-helmet": "^4.7.1",
+    "gatsby-plugin-sharp": "^3.7.1",
+    "gatsby-remark-images": "^5.4.1",
+    "gatsby-source-filesystem": "^3.7.1",
+    "gatsby-transformer-sharp": "^3.7.1",
+    "now": "^21.0.1",
+    "prop-types": "^15.7.2",
+    "pusher": "^5.0.0",
+    "pusher-js": "^7.0.3",
+    "random-animal-name-generator": "^0.1.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-timeago": "^6.2.1",
+    "slugify": "^1.5.3"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
